@@ -1,5 +1,6 @@
 
 import Header from './components/Header/index'
+import Footer from './components/Footer'
 import MainCardContainer from './components/MainCardContainer/index'
 import {businessList,getAreaBusiness} from './assets/data/businessList'
 import Home from './components/Home'
@@ -21,7 +22,7 @@ function App() {
       {page ==='Home' && <Home/>}
       {page==="Hagsatra"  && <MainCardContainer  businessList = {hagsatraBusinessList}/>}
       {page==="Bandhagen"  && <MainCardContainer businessList = {bandhagenBusinessList} />}
-     
+      <Footer/>
     </div>
   )
 }
