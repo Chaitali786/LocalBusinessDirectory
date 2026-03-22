@@ -1,0 +1,83 @@
+.businesscard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #ffffff;
+  border: 1px solid #d43a52;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 350px;
+  margin: 20px;
+}
+
+.businesscard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: #00b894;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2d3436;
+  margin: 0;
+  flex: 1;
+}
+
+.category {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #e1f5fe;
+  color: #1e02d1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+.details {
+  font-size: 0.85rem;
+  color: #636e72;
+}
+
+.owner {
+  margin: 0;
+  font-weight: 500;
+}
+
+.area {
+  margin: 4px 0 0 0;
+}
+
+.description {
+  font-size: 0.8rem;
+  color: #b2bec3;
+  line-height: 1.5;
+  margin: 8px 0;
+}
+
+.contactBtn {
+  margin-top: auto;
+  background-color: #2d3436;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.businessImg {
+  max-width: 100%;
+}
+.contactBtn:hover {
+  background-color: #00b894;
+}

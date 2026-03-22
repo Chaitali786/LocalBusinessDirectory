@@ -1,0 +1,36 @@
+.headerContainer {
+  margin: 0;
+}
+.content {
+  background-color: #322045;
+  text-align: center;
+  color: snow;
+  padding: 24px;
+}
+.logotext {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -1px;
+}
+.tagline {
+  font-size: 0.85rem;
+  color: #d43a52;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .headerContainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .logotext {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  .tagline {
+    text-align: left;
+  }
+}
